@@ -1,6 +1,6 @@
 ## Transit Flow
 
-### A web application for a transport and logistics company built with react and tailwind
+A web application for a transport and logistics company built with react and tailwind
 
 ## Project Status
 
@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```
-   git clone git clone https://github.com/Mahmud1087/transit-flow.git
+   git clone https://github.com/Mahmud1087/transit-flow.git
    ```
 
 2. Navigate into the project directory:

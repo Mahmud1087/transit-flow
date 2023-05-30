@@ -4,17 +4,25 @@ export default {
   theme: {
     extend: {
       colors: {
-        prim1: '#FFBE34',
-        prim2: '#091242',
-        prim3: '#1f2a69',
-        sec1: '#F4F4F4',
-        heading: '#1C1F35',
-        paragraph: '#666C89',
-        grad1: '#ffb629',
-        grad2: '#ffda56',
-        grad3: '#ffd7a6',
-        titleBg1: '#041c3780',
-        titleBg2: '#e8e8e880',
+        prim: {
+          1: '#FFBE34',
+          2: '#091242',
+          3: '#1f2a69',
+        },
+        sec: {
+          1: '#F4F4F4',
+          2: '#1C1F35',
+          3: '#666C89',
+        },
+        grad: {
+          1: '#ffb629',
+          2: '#ffda56',
+          3: '#ffd7a6',
+        },
+        titleBg: {
+          1: '#041c3780',
+          2: '#e8e8e880',
+        },
         greyish: '#666C89',
       },
 
@@ -27,12 +35,19 @@ export default {
   plugins: [],
   safelist: [
     {
-      pattern: /(bg|text|border)-sec1/,
-      pattern: /(bg|text|border)-paragraph/,
-      pattern: /(bg|text|border)-heading/,
+      pattern: /(bg|text|border)-sec-(1|2|3)/,
+    },
+    {
       pattern: /(bg|text|border)-greyish/,
-      pattern: /(bg|text|border)-titleBg(1|2)/,
-      pattern: /(bg|text|border)-grad(1|2|3)/,
+    },
+    {
+      pattern: /(bg|text|border)-titleBg-(1|2|3)/,
+    },
+    {
+      pattern: /(bg|text|border)-grad-(1|2|3)/,
+    },
+    {
+      pattern: /(bg|text|border)-prim-(1|2|3)/,
     },
   ],
 };

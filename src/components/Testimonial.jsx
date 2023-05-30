@@ -6,18 +6,18 @@ import { testmData } from '../../data';
 export default function Testimonial() {
   return (
     <section className='w-[55rem] mx-auto py-10'>
-      <Title bg='titleBg2' text='#heading'>
+      <Title bg='titleBg-2' text='#heading'>
         Testimonial
       </Title>
       <div className='flex justify-between items-center my-3'>
-        <h1 className='text-prim2 text-xl font-semibold font-[Rubik]'>
+        <h1 className='text-prim-2 text-xl font-semibold font-[Rubik]'>
           What Our Customer Say
         </h1>
         <div className='flex gap-2'>
-          <div className='p-1 rounded-full text-prim2 bg-gradient-to-r from-grad1 via-grad2 to-grad3'>
+          <div className='p-1 rounded-full text-prim-2 bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3'>
             <BsArrowLeftShort />
           </div>
-          <div className='p-1 rounded-full bg-prim2 text-white'>
+          <div className='p-1 rounded-full bg-prim-2 text-white'>
             <BsArrowRightShort />
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Testimonial() {
                   </div>
                 </div>
 
-                <div className='rounded-full text-[40px] text-prim2 bg-gradient-to-r from-grad1 via-grad2 to-grad3'>
+                <div className='rounded-full text-[40px] text-prim-2 bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3'>
                   <CgQuote />
                 </div>
               </div>

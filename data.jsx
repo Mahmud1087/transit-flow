@@ -124,8 +124,9 @@ export const testmData = [
       'Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
     star: starIcon,
     bgColor: 'sec-1',
-    paragColor: 'greyish',
+    paragColor: 'sec-3',
     headColor: 'prim-2',
+    bold: true,
   },
   {
     id: 2,
@@ -138,5 +139,6 @@ export const testmData = [
     bgColor: 'prim-2',
     paragColor: 'white',
     headColor: 'white',
+    bold: false,
   },
 ];

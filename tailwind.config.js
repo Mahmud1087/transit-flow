@@ -23,7 +23,6 @@ export default {
           1: '#041c3780',
           2: '#e8e8e880',
         },
-        greyish: '#666C89',
       },
 
       backgroundImage: {
@@ -36,9 +35,6 @@ export default {
   safelist: [
     {
       pattern: /(bg|text|border)-sec-(1|2|3)/,
-    },
-    {
-      pattern: /(bg|text|border)-greyish/,
     },
     {
       pattern: /(bg|text|border)-titleBg-(1|2|3)/,

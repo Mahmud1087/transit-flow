@@ -7,11 +7,9 @@ export default function SubHero() {
       <Navbar />
       <article className='h-full w-[55rem] mx-auto flex flex-col justify-center'>
         <div className='w-1/2 px-5'>
-          <Title
-            title='Logistics & Supply Chain Solutions'
-            bg='#041c3780'
-            text='white'
-          />
+          <Title bg='title1' text='white'>
+            Logistics & Supply Chain Solutions
+          </Title>
           <h1 className='font-[Rubik] font-[700] text-[2.4rem] text-white leading-[1.2] my-3'>
             Your Gateway <br /> to any Destination <br /> in the World
           </h1>

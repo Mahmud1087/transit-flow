@@ -13,6 +13,9 @@ export default {
         grad1: '#ffb629',
         grad2: '#ffda56',
         grad3: '#ffd7a6',
+        titleBg1: '#041c3780',
+        titleBg2: '#e8e8e880',
+        greyish: '#666C89',
       },
 
       backgroundImage: {
@@ -22,4 +25,14 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /(bg|text|border)-sec1/,
+      pattern: /(bg|text|border)-paragraph/,
+      pattern: /(bg|text|border)-heading/,
+      pattern: /(bg|text|border)-greyish/,
+      pattern: /(bg|text|border)-titleBg(1|2)/,
+      pattern: /(bg|text|border)-grad(1|2|3)/,
+    },
+  ],
 };

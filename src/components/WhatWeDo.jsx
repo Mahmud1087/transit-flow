@@ -5,7 +5,9 @@ export default function WhatWeDo() {
   return (
     <section id='about' className='flex w-[55rem] py-20 mx-auto'>
       <article className='px-5 w-1/4 flex flex-col gap-y-3'>
-        <Title title='What We Do' bg='#e8e8e880' text='#1c1f35' />
+        <Title bg='titleBg2' text='heading'>
+          What We Do
+        </Title>
         <h1 className='font-[Rubik] font-[600] leading-[1.5rem] text-heading text-[1.3rem]'>
           Safe & Reliable <br /> Cargo Solutions
         </h1>

@@ -2,8 +2,8 @@ import ImageBox from './ImageBox';
 
 export default function Projects() {
   return (
-    <section className='w-[60rem] mx-auto'>
-      <h1 className='text-center text-prim-2 text-xl font-[Rubik] font-semibold my-8'>
+    <section className='w-[60rem] mx-auto mt-[40rem]'>
+      <h1 className='text-center text-prim-2 text-[1.55rem] font-[Rubik] font-semibold my-8'>
         Transporting Across The World
       </h1>
       <ImageBox />

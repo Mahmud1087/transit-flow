@@ -3,7 +3,7 @@ import Title from './Title';
 
 export default function SubHero() {
   return (
-    <section className='bg-heroImage bg-no-repeat bg-center bg-cover h-screen relative'>
+    <section className="bg-[url('./src/assets/Photo.png')] bg-no-repeat bg-center bg-cover h-screen relative">
       <Navbar />
       <article className='h-full w-[55rem] mx-auto flex flex-col justify-center'>
         <div className='w-1/2 px-5'>

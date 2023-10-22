@@ -26,8 +26,8 @@ export default {
       },
 
       backgroundImage: {
-        heroImage: "url('~./src/assets/Photo.png')",
-        projectBg: "url('~./src/assets/Background.png')",
+        heroImage: "url('~/src/assets/Photo.png')",
+        projectBg: "url('~/src/assets/Background.png')",
       },
     },
   },

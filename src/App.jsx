@@ -2,6 +2,7 @@ import HeroSection from './components/HeroSection';
 import Projects from './components/Projects';
 import Testimonial from './components/Testimonial';
 import WhatWeDo from './components/WhatWeDo';
+import WhyChooseUs from './components/WhyChooseUs';
 import WhyUs from './components/WhyUs';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <WhyUs />
       <Projects />
       <Testimonial />
+      <WhyChooseUs />
     </>
   );
 }

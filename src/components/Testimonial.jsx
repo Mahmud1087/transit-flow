@@ -5,7 +5,7 @@ import CustomerBox from './CustomerBox';
 
 export default function Testimonial() {
   return (
-    <section className='w-[55rem] mx-auto py-10'>
+    <section className='w-[45rem] mx-auto py-10'>
       <Title bg='titleBg-2' text='#heading'>
         Testimonial
       </Title>
@@ -14,10 +14,10 @@ export default function Testimonial() {
           What Our Customers Say
         </h1>
         <div className='flex gap-2'>
-          <div className='p-1 text-xl rounded-full text-prim-2 bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3'>
+          <div className='p-1 text-xl rounded-full text-prim-2 bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 cursor-pointer'>
             <BsArrowLeftShort />
           </div>
-          <div className='p-1 text-xl rounded-full bg-prim-2 text-white'>
+          <div className='p-1 text-xl rounded-full bg-prim-2 text-white cursor-pointer'>
             <BsArrowRightShort />
           </div>
         </div>

@@ -6,6 +6,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.box {
+  background: linear-gradient(
+    94deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+
 /* body {
   background: #1c1f35bd;
 } */

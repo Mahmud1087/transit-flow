@@ -36,7 +36,7 @@ export default function Contact() {
       id='contact'
       className='flex flex-col gap-5 justify-center items-center py-28 bg-prim-2'
     >
-      <article className='flex flex-col gap-3 w-[52rem]'>
+      <article className='flex flex-col gap-3 sm:w-[52rem]'>
         <Title bg='titleBg-3' text='white'>
           Contact
         </Title>

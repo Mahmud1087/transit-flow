@@ -5,7 +5,7 @@ export default function SubHero() {
   return (
     <section className="bg-[url('./assets/Photo.png')] bg-no-repeat bg-center bg-cover h-screen relative">
       <Navbar />
-      <article className='h-full w-[55rem] mx-auto flex flex-col justify-center'>
+      <article className='h-full sm:w-[55rem] sm:mx-auto flex flex-col justify-center'>
         <div className='w-1/2 px-5'>
           <Title bg='titleBg-1' text='white'>
             Logistics & Supply Chain Solutions

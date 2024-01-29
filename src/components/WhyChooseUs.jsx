@@ -21,7 +21,7 @@ export default function () {
   return (
     <section className='my-12 w-full h-[90vh] grid grid-cols-2'>
       <div className='bg-prim-2'>
-        <div className='relative -right-24 top-1/2 bottom-1/2 -translate-y-1/2 z-[3] w-[40rem] h-[25rem]'>
+        <div className='relative -right-24 top-1/2 bottom-1/2 -translate-y-1/2 z-[3] sm:w-[40rem] h-[25rem]'>
           <img src={img} alt='plane image' className='w-full h-full' />
           <div className='box absolute bottom-0 left-[45%] -translate-x-1/2 h-[5.5rem] w-72 z-[3] flex justify-center items-center gap-8 py-5 px-8'>
             <img src={smallPlane} alt='small plane icon' className='w-10' />

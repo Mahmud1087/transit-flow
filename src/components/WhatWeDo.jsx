@@ -3,7 +3,7 @@ import Title from './Title';
 
 export default function WhatWeDo() {
   return (
-    <section id='about' className='flex w-[55rem] py-20 mx-auto'>
+    <section id='about' className='flex sm:w-[55rem] sm:mx-auto py-20'>
       <article className='px-5 w-1/4 flex flex-col gap-y-3'>
         <Title bg='titleBg-2' text='sec-2'>
           What We Do

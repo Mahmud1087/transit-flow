@@ -55,7 +55,7 @@ export default function Expert() {
       <h1 className='font-[Rubik] font-semibold leading-[1.5rem] text-sec-2 text-[1.55rem]'>
         Meet Expert Team
       </h1>
-      <div className='flex justify-center items-center gap-10 mt-5 w-[52rem]'>
+      <div className='flex justify-center items-center gap-10 mt-5 sm:w-[52rem]'>
         {data.map((item, i) => {
           const {
             id,

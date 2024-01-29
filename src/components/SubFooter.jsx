@@ -20,7 +20,7 @@ export default function SubFooter() {
       <img src={img} alt='Image' />
 
       <footer className='h-[4rem] bg-[#161f4ff0]'>
-        <div className='flex gap-8 w-[52rem] h-full mx-auto'>
+        <div className='flex gap-8 sm:w-[52rem] h-full sm:mx-auto'>
           <div className='flex items-center justify-center px-3 pr-24 bg-prim-2 h-full'>
             <img src={logo} alt='Transit logo' className='w-[10rem] px-5' />
           </div>

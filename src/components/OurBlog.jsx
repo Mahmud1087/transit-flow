@@ -30,7 +30,7 @@ export default function OurBlog() {
   ];
 
   return (
-    <section className='my-28 flex flex-col items-center justify-center gap-4 w-[45rem] mx-auto'>
+    <section className='my-28 flex flex-col items-center justify-center gap-4 sm:w-[45rem] sm:mx-auto'>
       <Title bg='titleBg-2' text='sec-2'>
         Our Blog
       </Title>

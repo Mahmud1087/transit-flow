@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <section className='border-solid border-t-[1px] border-[#4e5683] bg-prim-2'>
-      <div className='flex justify-between items-center py-5 w-[52rem] mx-auto'>
+      <div className='flex justify-between items-center py-5 sm:w-[52rem] sm:mx-auto'>
         <p className='text-[12px] font-normal font-[Krub] text-white ml-8'>
           Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.
         </p>

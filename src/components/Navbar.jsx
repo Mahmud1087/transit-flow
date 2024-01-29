@@ -8,8 +8,8 @@ export default function Navbar() {
     { text: 'contact', hr: false, socials: <FaLinkedin />, href: '#linkedIn' },
   ];
   return (
-    <nav className='bg-[#09124240] absolute top-0 left-0 right-0'>
-      <section className='flex justify-between items-center w-[55rem] mx-auto'>
+    <nav className='bg-[#09124240] hidden sm:block'>
+      <section className='flex justify-between items-center sm:w-[55rem] sm:mx-auto '>
         <ul className='list-none flex justify-center items-center'>
           {navLists.map((item, index) => {
             return (

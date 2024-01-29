@@ -12,7 +12,7 @@ export default function WhyUs() {
         <div className='bg-gradient-to-b from-[#1c1f3500] via-[#1c1f35b4] to-[#091242e8] w-full m-auto h-[9rem] absolute bottom-0 left-0 inset-auto blur-0'></div>
       </div>
 
-      <article className='p-14 absolute bottom-0 top-[12.5rem] left-0 right-0 flex flex-col gap-3 bg-white w-[62vw] mx-auto'>
+      <article className='p-14 absolute bottom-0 top-[12.5rem] left-0 right-0 flex flex-col gap-3 bg-white w-[65vw] mx-auto'>
         <section className='grid grid-cols-2 gap-2 w-full'>
           <div className='flex flex-col'>
             <Title bg='titleBg-2' text='sec-2'>

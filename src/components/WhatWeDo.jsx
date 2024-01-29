@@ -21,7 +21,7 @@ export default function WhatWeDo() {
               <img src={icon} alt='icon' className='h-10 w-9' />
               <div className='flex flex-col gap-y-2 border-solid border-l-[1px] border-[#d8d8d8] px-5'>
                 <h3 className='text-sec-2 font-semibold'>{header}</h3>
-                <p className='text-sec-3 text-[13px] font-[Krub leading-5'>
+                <p className='text-sec-3 text-[13px] font-[Krub] leading-5'>
                   {parag}
                 </p>
               </div>

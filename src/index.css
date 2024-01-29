@@ -6,7 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.box {
+.box,
+.box2 {
   background: linear-gradient(
     94deg,
     #ffb629 -1.21%,

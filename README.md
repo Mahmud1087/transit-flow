@@ -11,8 +11,8 @@ This project is currently in development
 These are screenshots of the current state of the web app as its still in development
 
 <img src='./src/assets/Screenshot (7).png' alt='screenshot 1'>
-<img src='./src/assets/Screenshot (8).png' alt='screenshot 1'>
-<img src='./src/assets/Screenshot (9).png' alt='screenshot 1'>
+<img src='./src/assets/Screenshot (8).png' alt='screenshot 2'>
+<img src='./src/assets/Screenshot (9).png' alt='screenshot 3'>
 
 ## Installation and Setup
 

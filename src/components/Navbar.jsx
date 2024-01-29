@@ -2,10 +2,10 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Navbar() {
   const navLists = [
-    { text: 'home', hr: true, socials: <FaInstagram /> },
-    { text: 'about', hr: true, socials: <FaFacebook /> },
-    { text: 'project', hr: true, socials: <FaTwitter /> },
-    { text: 'contact', hr: false, socials: <FaLinkedin /> },
+    { text: 'home', hr: true, socials: <FaInstagram />, href: '#instagram' },
+    { text: 'about', hr: true, socials: <FaFacebook />, href: '#facebook' },
+    { text: 'project', hr: true, socials: <FaTwitter />, href: '#twitter' },
+    { text: 'contact', hr: false, socials: <FaLinkedin />, href: '#linkedIn' },
   ];
   return (
     <nav className='bg-[#09124240] absolute top-0 left-0 right-0'>
@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className='flex gap-4'>
             {navLists.map((item, index) => {
               return (
-                <a href='#instagram' key={index} className='text-white'>
+                <a href={item.href} key={index} className='text-white'>
                   {item.socials}
                 </a>
               );

@@ -22,6 +22,7 @@ export default {
         titleBg: {
           1: '#041c3780',
           2: '#e8e8e880',
+          3: '#e8e8e81a',
         },
       },
 

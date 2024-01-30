@@ -9,7 +9,7 @@ export default function Navbar({ className }) {
   ];
   return (
     <nav className={`${className} bg-[#091242c5] w-full sm:bg-[#09124240] `}>
-      <section className='flex flex-col items-center gap-10 py-7 sm:gap-0 sm:py-0 sm:flex-row sm:justify-between sm:w-[55rem] sm:mx-auto '>
+      <section className='flex flex-col items-center gap-10 py-7 sm:gap-0 sm:py-0 sm:flex-row sm:justify-between lg:w-[55rem] lg:mx-auto '>
         <ul className='list-none flex flex-col gap-7 sm:flex-row sm:gap-0 sm:justify-center sm:items-center'>
           {navLists.map((item, index) => {
             return (

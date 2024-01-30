@@ -8,11 +8,18 @@ import Expert from './components/Expert';
 import Contact from './components/Contact';
 import OurBlog from './components/OurBlog';
 import FooterSection from './components/FooterSection';
+import { useState } from 'react';
 
 export default function App() {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
   return (
-    <>
-      <HeroSection />
+    <div className={`${toggleMenu && 'fixed'}`}>
+      <HeroSection toggleMenu={toggleMenu} handleToggle={handleToggle} />
       <WhatWeDo />
       <WhyUs />
       <Projects />
@@ -22,6 +29,6 @@ export default function App() {
       <Contact />
       <OurBlog />
       <FooterSection />
-    </>
+    </div>
   );
 }

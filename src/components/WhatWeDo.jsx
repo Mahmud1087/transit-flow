@@ -7,7 +7,7 @@ export default function WhatWeDo() {
       id='about'
       className='flex flex-col py-10 w-full sm:flex-row sm:py-20 sm:w-[55rem] sm:mx-auto '
     >
-      <article className='px-5 flex flex-col items-center gap-5 text-center sm:text-start sm:items-start sm:gap-3 sm:w-1/4 '>
+      <article className='px-5 flex flex-col items-start gap-5 text-center sm:text-start sm:gap-3 sm:w-1/4 '>
         <Title bg='titleBg-2' text='sec-2'>
           What We Do
         </Title>

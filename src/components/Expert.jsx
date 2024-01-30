@@ -55,7 +55,7 @@ export default function Expert() {
       <h1 className='font-[Rubik] font-semibold leading-[1.5rem] text-sec-2 text-[1.55rem]'>
         Meet Expert Team
       </h1>
-      <div className='flex justify-center items-center gap-10 mt-5 sm:w-[52rem]'>
+      <div className='flex flex-col px-6 justify-center items-center gap-10 mt-5 sm:px-0 sm:w-[52rem] sm:flex-row'>
         {data.map((item, i) => {
           const {
             id,
@@ -68,11 +68,11 @@ export default function Expert() {
           return (
             <div key={id} className='flex flex-col'>
               <img src={image} alt={`${name} image`} className='w-full' />
-              <div className='h-20 w-full bg-sec-2 p-6 pt-7 relative'>
-                <h1 className='text-white font-medium text-sm font-[Rubik]'>
+              <div className='h-28 w-full bg-sec-2 p-6 pt-7 relative sm:h-24 '>
+                <h1 className='text-white font-medium text-xl font-[Rubik] sm:text-sm '>
                   {name}
                 </h1>
-                <p className='font-normal text-white text-[12px] text-[Krub]'>
+                <p className='font-normal text-white text-[Krub] text-lg sm:text-[12px] '>
                   {skill}
                 </p>
                 <div className='box2 absolute -top-4 right-0 p-4 h-8 flex justify-center items-center gap-3'>

@@ -51,22 +51,22 @@ export default function WhyUs() {
         </section>
 
         <section className='grid grid-cols-2 mt-24 border-solid border-y-[1px] border-[#d4d4d4] '>
-          <div className='flex gap-3 items-center justify-center py-6'>
-            <h1 className=' text-sec-2 text-[1.7rem] font-semibold font-[Rubik]'>
+          <div className='flex flex-col gap-3 py-4 items-center justify-center sm:py-6 sm:flex-row'>
+            <h1 className=' text-sec-2 text-xl font-semibold font-[Rubik] sm:text-[1.7rem] '>
               1294
             </h1>
-            <span className='bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 w-3 h-3'></span>
-            <p className='text-sm font-normal text-sec-2 font-[League Spartan]'>
+            <span className='hidden bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 w-3 h-3 sm:block'></span>
+            <p className='text-xs font-normal text-sec-2 font-[League Spartan] sm:text-sm '>
               Delivered Packages
             </p>
           </div>
 
-          <div className='border-solid border-l-[1px] border-[#d4d4d4] flex gap-3 items-center justify-center py-6'>
-            <h1 className=' text-sec-2 text-[1.7rem] font-semibold font-[Rubik]'>
+          <div className='py-4 flex-col border-solid border-l-[1px] border-[#d4d4d4] flex gap-3 items-center justify-center sm:py-6 sm:flex-row'>
+            <h1 className=' text-sec-2 text-xl font-semibold font-[Rubik] sm:text-[1.7rem] '>
               3594
             </h1>
-            <span className='bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 w-3 h-3'></span>
-            <p className='text-sm font-normal text-sec-2 font-[League Spartan]'>
+            <span className='hidden bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 w-3 h-3 sm:block'></span>
+            <p className='text-xs font-normal text-sec-2 font-[League Spartan] sm:text-sm '>
               Satisfied Clients
             </p>
           </div>

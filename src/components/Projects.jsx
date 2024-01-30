@@ -2,8 +2,11 @@ import ImageBox from './ImageBox';
 
 export default function Projects() {
   return (
-    <section id='project' className='sm:w-[60rem] sm:mx-auto mt-[38rem] py-5'>
-      <h1 className='text-center text-prim-2 text-[1.55rem] font-[Rubik] font-semibold my-8'>
+    <section
+      id='project'
+      className='w-full mt-[52rem] px-6 py-5 text-center sm:w-[60rem] sm:mx-auto sm:mt-[38rem] sm:px-0'
+    >
+      <h1 className='text-center text-prim-2 text-[1.5rem] font-[Rubik] font-semibold my-8 sm:text-[1.55rem] '>
         Transporting Across The World
       </h1>
       <ImageBox />

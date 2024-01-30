@@ -5,7 +5,7 @@ import CustomerBox from './CustomerBox';
 
 export default function Testimonial() {
   return (
-    <section className='sm:w-[45rem] sm:mx-auto py-10'>
+    <section className='w-full px-6 py-10 sm:w-[45rem] sm:mx-auto sm:px-0'>
       <Title bg='titleBg-2' text='#heading'>
         Testimonial
       </Title>
@@ -13,7 +13,7 @@ export default function Testimonial() {
         <h1 className='text-prim-2 text-2xl font-semibold font-[Rubik]'>
           What Our Customers Say
         </h1>
-        <div className='flex gap-2'>
+        <div className='gap-2 hidden sm:flex'>
           <div className='p-1 text-xl rounded-full text-prim-2 bg-gradient-to-r from-grad-1 via-grad-2 to-grad-3 cursor-pointer'>
             <BsArrowLeftShort />
           </div>
@@ -23,7 +23,7 @@ export default function Testimonial() {
         </div>
       </div>
 
-      <article className='my-8 flex justify-center items-center'>
+      <article className='my-8 flex flex-col justify-center items-center gap-6 sm:gap-0 sm:flex-row'>
         {testmData.map((item) => {
           return <CustomerBox key={item.id} {...item} />;
         })}

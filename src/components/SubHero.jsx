@@ -3,17 +3,17 @@ import Title from './Title';
 
 export default function SubHero() {
   return (
-    <section className="bg-[url('./assets/Photo.png')] bg-no-repeat bg-center bg-cover h-full sm:h-screen">
+    <section className="bg-[url('./assets/Photo.png')] bg-no-repeat bg-center bg-cover w-full h-full sm:h-screen">
       <Navbar className='hidden sm:block' />
-      <article className='h-full flex flex-col justify-center items-center sm:items-start sm:w-[55rem] sm:mx-auto '>
+      <article className='w-full h-full flex flex-col justify-center items-center sm:items-start sm:w-[70rem] sm:mx-auto sm:px-6 lg:px-0 lg:w-[55rem] '>
         <div className='w-full flex flex-col items-center text-center px-5 py-24 sm:text-start sm:block sm:w-1/2 sm:px-5'>
           <Title bg='titleBg-1' text='white'>
             Logistics & Supply Chain Solutions
           </Title>
-          <h1 className='font-[Rubik] font-bold text-4xl text-white leading-[1.2] my-3 sm:text-[2.4rem]'>
+          <h1 className='font-[Rubik] font-bold text-4xl text-white leading-[1.2] my-3 sm:text-5xl lg:text-[2.6rem]'>
             Your Gateway <br /> to any Destination <br /> in the World
           </h1>
-          <p className='text-white leading-[1.5] mb-4 sm:text-xs'>
+          <p className='text-white leading-[1.5] mb-4 lg:text-xs'>
             In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie
             in arcu <br className='hidden sm:block' /> no, iaculis vehicula
             ipsum. Nunc faucibus, nisl id dapibus finibus, enim{' '}

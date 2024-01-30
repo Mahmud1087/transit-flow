@@ -5,9 +5,9 @@ export default function WhatWeDo() {
   return (
     <section
       id='about'
-      className='flex flex-col py-10 w-full sm:flex-row sm:py-20 sm:w-[55rem] sm:mx-auto '
+      className='flex flex-col py-10 w-full sm:w-[60rem] sm:mx-auto sm:px-6 lg:flex-row lg:py-20 lg:w-[55rem] lg:mx-auto '
     >
-      <article className='px-5 flex flex-col items-start gap-5 text-center sm:text-start sm:gap-3 sm:w-1/4 '>
+      <article className='px-5 flex flex-col items-start gap-5 text-center lg:text-start lg:gap-3 lg:w-1/4 '>
         <Title bg='titleBg-2' text='sec-2'>
           What We Do
         </Title>
@@ -16,7 +16,7 @@ export default function WhatWeDo() {
         </h1>
       </article>
 
-      <div className='w-full my-8 px-6 grid grid-flow-row gap-y-10 sm:gap-x-10 sm:gap-y-16 sm:grid-rows-2 sm:px-0 sm:my-0 sm:grid-cols-2 sm:w-3/4 sm:justify-center sm:items-center'>
+      <div className='w-full my-8 px-6 grid grid-flow-row gap-y-10 sm:gap-x-10 sm:gap-y-16 sm:grid-rows-2 sm:px-6 sm:my-10 sm:grid-cols-2 sm:w-3/4 sm:justify-center sm:items-center lg:px-0 lg:my-0'>
         {aboutData.map((item) => {
           const { id, icon, header, parag } = item;
           return (

@@ -19,8 +19,8 @@ export default function () {
   ];
 
   return (
-    <section className='my-12 w-full grid sm:h-[90vh] sm:grid-cols-2'>
-      <div className='bg-prim-2 hidden sm:block'>
+    <section className='my-12 w-full grid lg:h-[90vh] lg:grid-cols-2'>
+      <div className='bg-prim-2 hidden lg:block'>
         <div className='relative -right-24 top-1/2 bottom-1/2 -translate-y-1/2 z-[3] sm:w-[40rem] h-[25rem]'>
           <img src={img} alt='plane image' className='w-full h-full' />
           <div className='box absolute bottom-0 left-[45%] -translate-x-1/2 h-[5.5rem] w-72 z-[3] flex justify-center items-center gap-8 py-5 px-8'>
@@ -32,8 +32,8 @@ export default function () {
         </div>
       </div>
 
-      <div className='bg-sec-1 sm:relative'>
-        <div className='flex flex-col gap-3 px-6 py-16 sm:px-0 sm:py-0 sm:absolute sm:left-36 sm:top-1/2 sm:-translate-y-1/2 sm:w-[58%]'>
+      <div className='bg-sec-1 sm:grid sm:grid-cols-2 lg:relative'>
+        <div className='flex flex-col gap-3 px-6 py-16 lg:px-0 lg:py-0 lg:absolute lg:left-36 lg:top-1/2 lg:-translate-y-1/2 lg:w-[58%]'>
           <Title bg='titleBg-2' text='sec-2'>
             Why Choose
           </Title>
@@ -59,6 +59,11 @@ export default function () {
             })}
           </div>
         </div>
+        <img
+          src={img}
+          alt='plane image'
+          className='hidden sm:block sm:h-full lg:hidden'
+        />
       </div>
     </section>
   );

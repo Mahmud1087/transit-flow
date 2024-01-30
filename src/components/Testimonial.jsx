@@ -5,7 +5,7 @@ import CustomerBox from './CustomerBox';
 
 export default function Testimonial() {
   return (
-    <section className='w-full px-6 py-10 sm:w-[45rem] sm:mx-auto sm:px-0'>
+    <section className='w-full px-6 py-10 sm:w-[45rem] sm:mx-auto lg:px-0'>
       <Title bg='titleBg-2' text='#heading'>
         Testimonial
       </Title>

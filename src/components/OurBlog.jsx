@@ -30,25 +30,25 @@ export default function OurBlog() {
   ];
 
   return (
-    <section className='my-28 flex flex-col items-center justify-center gap-4 sm:w-[45rem] sm:mx-auto'>
+    <section className='w-full my-28 flex flex-col items-center justify-center gap-4 sm:w-[45rem] sm:mx-auto'>
       <Title bg='titleBg-2' text='sec-2'>
         Our Blog
       </Title>
       <h1 className='text-sec-2 text-[1.8rem] font-[Rubik] font-semibold leading-7'>
         Our Latest News
       </h1>
-      <div className='flex flex-col gap-5 mt-8'>
+      <div className='flex flex-col gap-5 mt-8 px-6 sm:px-0'>
         {data.map((item) => {
           const { id, image, day, heading, lastChild } = item;
 
           return (
             <div
               key={id}
-              className={`flex gap-3 py-6 border-solid border-[#d6d6d6] border-t-[1px] ${
+              className={`flex flex-col gap-3 py-6 border-solid border-[#d6d6d6] border-t-[1px] ${
                 lastChild && 'border-b-[1px]'
-              }`}
+              } sm:flex-row`}
             >
-              <img src={image} alt={`image ${id}`} className='w-[22rem]' />
+              <img src={image} alt={`image ${id}`} className='sm:w-[22rem]' />
               <div className='flex flex-col items-center leading-9'>
                 <img src={calendarIcon} alt='calendar icon' className='w-9' />
                 <h1 className='text-sec-2 font-semibold text-[30px] font-[Rubik] text-center'>

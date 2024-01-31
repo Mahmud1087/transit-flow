@@ -36,12 +36,12 @@ export default function Contact() {
       id='contact'
       className='flex flex-col gap-5 justify-center items-center bg-prim-2 px-6 py-14 sm:px-0 sm:py-28 '
     >
-      <article className='flex flex-col gap-8 sm:gap-3 sm:w-[52rem]'>
+      <article className='flex flex-col gap-8 sm:gap-3 sm:w-full sm:px-6 lg:px-0 lg:w-[52rem]'>
         <Title bg='titleBg-3' text='white'>
           Contact
         </Title>
         <section className='flex flex-col gap-16 sm:flex-row'>
-          <div className='flex w-full flex-col gap-6 sm:gap-3 sm:w-[38%] '>
+          <div className='flex w-full flex-col gap-6 sm:gap-3 sm:w-1/2 lg:w-[38%] '>
             <h1 className='font-[Rubik] font-medium text-white text-[1.8rem] leading-6'>
               Get in touch with us
             </h1>
@@ -71,27 +71,31 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className='w-full flex flex-col gap-5 sm:w-[62%] '>
-            <div className='grid grid-cols-2 gap-5'>
+          <div className='w-full flex flex-col gap-5 sm:w-1/2 lg:w-[62%] '>
+            <div className='grid grid-cols-2 gap-5 sm:grid-cols-none lg:grid-cols-2'>
               <input
                 type='text'
                 placeholder='Your name*'
                 className='text-[13px] p-4 placeholder-white bg-transparent border border-solid border-[#4e5683] text-white outline-none'
+                required
               />
               <input
                 type='email'
                 placeholder='Email*'
                 className='text-[13px] p-4 placeholder-white bg-transparent border border-solid border-[#4e5683] outline-none text-white'
+                required
               />
               <input
                 type='text'
                 placeholder='Phone Number*'
                 className='text-[13px] p-4 placeholder-white bg-transparent border border-solid border-[#4e5683] outline-none text-white'
+                required
               />
               <input
                 type='text'
                 placeholder='City*'
                 className='text-[13px] p-4 placeholder-white bg-transparent border border-solid border-[#4e5683] outline-none text-white'
+                required
               />
             </div>
 
@@ -102,6 +106,7 @@ export default function Contact() {
               rows='6'
               placeholder='Message'
               className='text-[13px] p-4 text-white placeholder-white bg-transparent border border-solid border-[#4e5683] outline-none resize-none'
+              required
             ></textarea>
 
             <button

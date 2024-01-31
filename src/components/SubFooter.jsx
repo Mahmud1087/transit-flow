@@ -48,7 +48,7 @@ export default function SubFooter() {
       </footer>
 
       <article className='bg-prim-2 pb-10 w-full px-6'>
-        <div className='flex flex-col gap-8 sm:w-[52rem] sm:mx-auto sm:flex-row'>
+        <div className='flex flex-col gap-8 sm:w-full sm:gap-3 lg:gap-8 lg:w-[52rem] sm:mx-auto sm:flex-row'>
           <div className='flex flex-col'>
             <p className='font-normal text-[#e8e8e8] font-[Krub] text-[11px] leading-5 py-5 sm:w-[16.5rem] sm:pl-8 '>
               Leverage agile frameworks to provide a robust synopsis for
@@ -76,8 +76,8 @@ export default function SubFooter() {
             </div>
           </div>
 
-          <div className='flex py-3 gap-24 sm:justify-center'>
-            <ul className='ml-1 sm:w-[5rem]'>
+          <div className='flex py-3 gap-24 sm:gap-16 lg:gap-24 sm:justify-center'>
+            <ul className='ml-1 sm:ml-0 lg:ml-1 sm:w-[5rem]'>
               <li>
                 <a
                   href='#about'
@@ -120,7 +120,7 @@ export default function SubFooter() {
               </li>
             </ul>
 
-            <ul className='w-[5rem]'>
+            <ul className='w-[5rem] ml-0 sm:ml-5 lg:ml-0'>
               <li>
                 <a
                   href='#style'
@@ -164,7 +164,7 @@ export default function SubFooter() {
             </ul>
           </div>
 
-          <div className='py-5 flex flex-col gap-3 sm:ml-16 '>
+          <div className='py-5 flex flex-col gap-3 lg:ml-16 '>
             <input
               type='text'
               placeholder='Enroll here'

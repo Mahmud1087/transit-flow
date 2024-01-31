@@ -52,10 +52,10 @@ export default function Expert() {
       <Title bg='titleBg-2' text='sec-2'>
         The Transporters
       </Title>
-      <h1 className='font-[Rubik] font-semibold leading-[1.5rem] text-sec-2 text-[1.55rem]'>
+      <h1 className='font-[Rubik] font-semibold leading-[1.5rem] text-sec-2 text-[1.55rem] sm:text-3xl lg:text-2xl'>
         Meet Expert Team
       </h1>
-      <div className='flex flex-col px-6 justify-center items-center gap-10 mt-5 sm:px-0 sm:w-[52rem] sm:flex-row'>
+      <div className='flex flex-col px-6 justify-center items-center gap-10 mt-5 sm:w-full sm:flex-row sm:gap-5 lg:gap-10 lg:w-[52rem] lg:px-0'>
         {data.map((item, i) => {
           const {
             id,
@@ -68,8 +68,8 @@ export default function Expert() {
           return (
             <div key={id} className='flex flex-col'>
               <img src={image} alt={`${name} image`} className='w-full' />
-              <div className='h-28 w-full bg-sec-2 p-6 pt-7 relative sm:h-24 '>
-                <h1 className='text-white font-medium text-xl font-[Rubik] sm:text-sm '>
+              <div className='h-28 w-full bg-sec-2 p-6 pt-7 relative sm:h-24 sm:p-4 sm:pt-6 lg:p-6 '>
+                <h1 className='text-white font-medium text-xl font-[Rubik] sm:text-base lg:text-sm '>
                   {name}
                 </h1>
                 <p className='font-normal text-white text-[Krub] text-lg sm:text-[12px] '>

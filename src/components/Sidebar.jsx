@@ -1,5 +1,5 @@
 import { FaTimes } from 'react-icons/fa';
-import logo from '../assets/logo.svg';
+import logo from '../assets/Logo.svg';
 import HeaderMenu from './HeaderMenu';
 import Navbar from './Navbar';
 

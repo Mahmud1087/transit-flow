@@ -1,6 +1,6 @@
 import Title from './Title';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import img1 from '../assets/Photo (7).png';
+import img1 from '../assets/photo (7).png';
 import img2 from '../assets/Photo (8).png';
 import img3 from '../assets/Image.jpg';
 

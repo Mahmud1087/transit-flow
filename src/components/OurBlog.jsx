@@ -30,7 +30,7 @@ export default function OurBlog() {
   ];
 
   return (
-    <section className='w-full my-28 flex flex-col items-center justify-center gap-4 sm:w-[45rem] sm:mx-auto'>
+    <section className='w-full my-28 flex flex-col items-center justify-center gap-4 lg:w-[45rem] lg:mx-auto'>
       <Title bg='titleBg-2' text='sec-2'>
         Our Blog
       </Title>
@@ -45,10 +45,14 @@ export default function OurBlog() {
             <div
               key={id}
               className={`flex flex-col gap-3 py-6 border-solid border-[#d6d6d6] border-t-[1px] ${
-                lastChild && 'border-b-[1px]'
-              } sm:flex-row`}
+                lastChild && 'border-b-[1px] '
+              } sm:flex-row sm:px-6 lg:px-0`}
             >
-              <img src={image} alt={`image ${id}`} className='sm:w-[22rem]' />
+              <img
+                src={image}
+                alt={`image ${id}`}
+                className='sm:w-[17rem] lg:w-[22rem]'
+              />
               <div className='flex flex-col items-center leading-9'>
                 <img src={calendarIcon} alt='calendar icon' className='w-9' />
                 <h1 className='text-sec-2 font-semibold text-[30px] font-[Rubik] text-center'>

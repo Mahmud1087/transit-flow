@@ -16,13 +16,17 @@ export default function SubFooter() {
   ];
 
   return (
-    <section className='flex flex-col'>
+    <section className='flex flex-col sm:w-full'>
       <img src={img} alt='Image' className='h-48 sm:h-full' />
 
       <footer className='h-[4rem] bg-[#161f4ff0]'>
-        <div className='flex gap-8 w-full flex-col h-full sm:flex-row sm:w-[52rem] sm:mx-auto'>
+        <div className='flex gap-8 w-full flex-col h-full sm:flex-row sm:mx-auto lg:w-[52rem] sm:px-6 lg:px-0'>
           <div className='flex items-center justify-center px-3 py-8 bg-prim-2 h-full sm:pr-24 sm:py-0'>
-            <img src={logo} alt='Transit logo' className='w-[10rem] px-5' />
+            <img
+              src={logo}
+              alt='Transit logo'
+              className='w-[10rem] sm:w-[45rem] lg:w-[10rem] px-5'
+            />
           </div>
           <div className='hidden sm:flex flex-col items-center gap-10 sm:gap-32 sm:flex-row'>
             <a
@@ -50,12 +54,12 @@ export default function SubFooter() {
       <article className='bg-prim-2 pb-10 w-full px-6'>
         <div className='flex flex-col gap-8 sm:w-full sm:gap-3 lg:gap-8 lg:w-[52rem] sm:mx-auto sm:flex-row'>
           <div className='flex flex-col'>
-            <p className='font-normal text-[#e8e8e8] font-[Krub] text-[11px] leading-5 py-5 sm:w-[16.5rem] sm:pl-8 '>
+            <p className='font-normal text-[#e8e8e8] font-[Krub] text-[11px] leading-5 py-5 sm:pl-2 lg:w-[16.5rem] lg:pl-8 '>
               Leverage agile frameworks to provide a robust synopsis for
               strategy collaborative thinking to further the overall value
               proposition.
             </p>
-            <div className='flex flex-row gap-4 sm:flex-col sm:pl-8'>
+            <div className='flex flex-row gap-4 sm:flex-col sm:pl-2 lg:pl-8'>
               {data.map((item) => {
                 const { id, text, image, other } = item;
 

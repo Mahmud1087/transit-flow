@@ -18,7 +18,7 @@ export default function App() {
   };
 
   return (
-    <div className={`${toggleMenu && 'fixed'}`}>
+    <div className={`${toggleMenu && 'fixed'} overflow-hidden`}>
       <HeroSection toggleMenu={toggleMenu} handleToggle={handleToggle} />
       <WhatWeDo />
       <WhyUs />

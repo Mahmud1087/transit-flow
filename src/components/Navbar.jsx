@@ -1,4 +1,6 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import QuoteContainer from './QuoteContainer';
+import { useState } from 'react';
 
 export default function Navbar({ className }) {
   const navLists = [
@@ -7,6 +9,13 @@ export default function Navbar({ className }) {
     { text: 'project', hr: true, socials: <FaTwitter />, href: '#twitter' },
     { text: 'contact', hr: false, socials: <FaLinkedin />, href: '#linkedIn' },
   ];
+
+  const [toggleQuote, setToggleQuote] = useState(false);
+
+  const handleQuote = () => {
+    setToggleQuote(!toggleQuote);
+  };
+
   return (
     <nav className={`${className} bg-[#091242c5] w-full sm:bg-[#09124240] `}>
       <section className='flex flex-col items-center gap-10 py-7 sm:gap-0 sm:py-0 sm:flex-row sm:justify-between lg:w-[55rem] lg:mx-auto '>
@@ -44,10 +53,15 @@ export default function Navbar({ className }) {
               );
             })}
           </div>
-
-          <button className='hidden px-5 py-3 bg-white text-sm border-none font-[Krub] font-[600] sm:block'>
-            Request Quote
-          </button>
+          <div className='relative hidden sm:block '>
+            <button
+              className='px-5 py-3 bg-white text-sm border-none font-[Krub] font-[600] '
+              onClick={handleQuote}
+            >
+              Request Quote
+            </button>
+            <QuoteContainer toggleQuote={toggleQuote} />
+          </div>
         </article>
       </section>
     </nav>
